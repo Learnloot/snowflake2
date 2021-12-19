@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/python-snowflake-2/__init__.py
+src/python-snowflake-2/snowflake.py
+src/python_snowflake_2.egg-info/PKG-INFO
+src/python_snowflake_2.egg-info/SOURCES.txt
+src/python_snowflake_2.egg-info/dependency_links.txt
+src/python_snowflake_2.egg-info/top_level.txt

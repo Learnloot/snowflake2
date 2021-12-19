@@ -1,1 +1,2 @@
-dist
+dist/
+python-snowflake_2.egg_info/
