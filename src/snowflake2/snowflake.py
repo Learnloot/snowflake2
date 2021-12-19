@@ -26,13 +26,3 @@ def make_snowflake(timestamp_ms, worker_id, process_id, increment_id, twepoch=tw
 def snowflakeToTime(snowflake):
     # From https://github.com/vegeta897/snow-stamp/blob/main/src/convert.js
     return datetime.datetime.fromtimestamp(float(int(snowflake) / 4194304 + twepoch))
-
-def local_datetime(timestamp_ms):
-    """convert millisecond timestamp to local datetime object."""
-    return datetime.datetime.fromtimestamp(timestamp_ms / 1000)
-
-if __name__ == '__main__':
-    import time
-    t0 = int(time.time() * 1000)
-    print(local_datetime(t0))
-    assert melt(make_snowflake(t0, 0, 0, 0))[0] == t0
