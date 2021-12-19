@@ -1,6 +1,12 @@
 # python-snowflake-2
 Based on <a href="https://github.com/falcondai/python-snowflake/blob/69898a84ef2b9c4919b5940120f8fc8e90723e0f/snowflake.py">falcondai and fenhl's Python snowflake tool</a>, but with documentation and simliarities to Discord.
 
+## Installation instructions
+Installation is easy. Just read the docs below then run this command:
+```
+pip install python-snowflake-2==0.0.1
+```
+
 ## Docs
 ### `make_snowflake`
 
